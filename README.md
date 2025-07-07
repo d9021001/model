@@ -19,8 +19,7 @@ The approach is designed to overcome the limitations of self-report questionnair
 
 ## Main Files
 
-- `xlsx24w_t_tr3c.py` — Main training and evaluation script (5-fold cross-validation, TPX pipeline)
-- `tpx24w_apptime.py` — Example of app usage time feature extraction
+- `tpx24w_apptime.py` — Main evaluation script (5-fold cross-validation, TPX pipeline); Example of app usage time feature extraction
 - `ts0.xlsx`, `ts1.xlsx` — Test set (class 0: negative, class 1: positive)
 - `tr0.xlsx`, `tr1.xlsx` — Training set (class 0: negative, class 1: positive)
 - `triplet.h5` — Pretrained Triplet-CNN model
