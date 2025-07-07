@@ -1,0 +1,26 @@
+# ============================================================
+#  Do NOT publish: raw / sensitive participant data
+# ============================================================
+*.xlsx
+*.csv
+*.h5
+*.pkl
+*.zip
+work_app_time_num_ai/
+app_usage_time_freq_dataset/
+
+# ============================================================
+#  Do NOT publish: the manuscripts (two papers) + front matter
+#  and any manuscript-derived text dumps
+# ============================================================
+*.docx
+appendix_dump*.txt
+math_dump.txt
+
+# ============================================================
+#  Python caches / scratch
+# ============================================================
+__pycache__/
+*.pyc
+*.pyo
+*.output
