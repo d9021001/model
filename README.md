@@ -39,7 +39,8 @@ The approach is designed to overcome the limitations of self-report questionnair
 
 3. **Run cross-validation:**
    ```bash
-   python xlsx24w_t_tr3c.py
+   python tpx24w_apptime.py
+   python tpx24w_apptime_roc.py
    ```
 
 4. **Model files:**
