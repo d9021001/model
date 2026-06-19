@@ -61,7 +61,7 @@ If you use this code or pipeline in your research, please cite:
 
 > [Detecting High-Risk Smartphone Addiction among College Students via AI-Based App Usage Analysis During COVID-19]  
 > [Zhi-Ren Tsai, Jeffrey J.P. Tsai, and Huei-Chen Ko]  
-> [Conference/Journal], 2025
+> Manuscript in preparation (not yet submitted).
 
 ## Contact
 
