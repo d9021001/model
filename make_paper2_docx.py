@@ -266,9 +266,12 @@ P("This secondary analysis used de-identified behavioural data collected under i
   "board approval, with written informed consent for passive digital-activity logging, encrypted "
   "transmission and secure storage. No directly identifying information was accessed.")
 H("Data and code availability", 2)
-P("The analytic dataset (a tidy participant-week-app CSV) together with all feature-engineering, "
-  "model, design-search, interpretability (SHAP) and ablation code are provided as a self-contained, "
-  "reproducible bundle; a regeneration script rebuilds the dataset from the source logs and labels.")
+P("The shared feature-extraction and pipeline source code is openly available at "
+  "https://github.com/d9021001/model. The complete, de-identified analysis bundle—the tidy "
+  "participant-week-app dataset together with all feature-engineering, model, design-search, "
+  "interpretability (SHAP) and ablation code, and a regeneration script that rebuilds the dataset from the "
+  "source logs and labels—is available from the corresponding author upon reasonable request; raw device "
+  "logs cannot be shared publicly to protect participant privacy.")
 H("Declaration of competing interest", 2)
 P("The authors declare no competing interests.")
 

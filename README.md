@@ -69,7 +69,9 @@ For questions or access to large model files, please contact:
 [ren@asia.edu.tw]
 
 ## Note on data & model availability
-Raw participant app-usage data (`tr*.xlsx`, `ts*.xlsx`) and trained model weights
-(`triplet.h5`, `pca_model.pkl`) are **not distributed in this repository** to protect
-participant privacy (IRB-approved study, CRREC-108-001). They are available from the
-corresponding author on reasonable request.
+The feature matrices (`tr*.xlsx`, `ts*.xlsx`) and the pretrained `triplet.h5` and
+`pca_model.pkl` are included in this repository (they are derived features/models,
+not raw participant logs). The large `xgb_model.model` is not tracked (GitHub
+file-size limit) and is available via the download link above. Raw, unprocessed
+device-usage logs are not distributed, to protect participant privacy
+(IRB-approved study, CRREC-108-001).

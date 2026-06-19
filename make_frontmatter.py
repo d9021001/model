@@ -86,10 +86,11 @@ title_page(
     "Smartphone addiction; App usage; Android apps; Convolutional neural network; Machine learning; Digital phenotyping",
     "Full-length report",
     dict(abs="205 words", main="≈ 7,460 words", fig="3", tab="3", ref="24"),
-    "The source code implementing the Triplet-PCA-XGBoost pipeline and the derived feature matrices that "
-    "support the findings are available from the corresponding author upon reasonable request. Raw passive "
-    "app-usage logs cannot be shared publicly to protect participant privacy and in accordance with the "
-    "ethics approval.",
+    "The source code implementing the Triplet-PCA-XGBoost pipeline, the reproduction scripts, the derived "
+    "feature matrices, and the pretrained model weights are openly available at "
+    "https://github.com/d9021001/model. Raw, unprocessed app-usage logs are not shared publicly to protect "
+    "participant privacy (IRB No. CRREC-108-001), but are available from the corresponding author upon "
+    "reasonable request.",
     1)
 
 # Paper 2
@@ -101,10 +102,11 @@ title_page(
     "Smartphone addiction; App usage; Usage frequency; Green learning; SHAP; Personalized prediction; Machine learning",
     "Full-length report",
     dict(abs="304 words [trim to ≤ 250 for submission]", main="≈ 2,570 words", fig="3", tab="5", ref="13"),
-    "A self-contained, de-identified analysis bundle—comprising the tidy participant-week-app dataset and "
-    "all feature-engineering, modelling, design-search, interpretability (SHAP) and ablation code, with a "
-    "script that regenerates the dataset from the source logs—is available from the corresponding author "
-    "upon reasonable request. Raw device logs cannot be shared publicly to protect participant privacy.",
+    "The shared feature-extraction and pipeline source code is available at https://github.com/d9021001/model. "
+    "The complete, de-identified analysis bundle—the tidy participant-week-app dataset together with all "
+    "feature-engineering, design-search, interpretability (SHAP) and ablation scripts and a dataset-regeneration "
+    "script—is available from the corresponding author upon reasonable request; raw device logs cannot be shared "
+    "publicly to protect participant privacy.",
     2)
 
 # ============================ COVER LETTERS ============================

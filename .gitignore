@@ -1,10 +1,7 @@
 # ============================================================
-#  Do NOT publish: raw / sensitive participant data
+#  Do NOT publish: raw device logs & paper-2 dataset bundle
 # ============================================================
-*.xlsx
 *.csv
-*.h5
-*.pkl
 *.zip
 work_app_time_num_ai/
 app_usage_time_freq_dataset/
@@ -24,3 +21,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.output
+
+# Note: feature matrices (tr*/ts*.xlsx) and pretrained weights
+# (triplet.h5, pca_model.pkl) ARE published — they are derived
+# features/models, not raw participant logs.
